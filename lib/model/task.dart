@@ -4,12 +4,12 @@ import 'package:todo_app/constants/tasktype.dart';
 class Task {
   String title;
   String description;
-  bool StringisCompleted;
+  bool isCompleted;
   TaskType type;
   Task({
     required this.title,
     required this.description,
-    required this.StringisCompleted,
+    required this.isCompleted,
     required this.type,
   });
 }
